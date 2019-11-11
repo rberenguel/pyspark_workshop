@@ -1,0 +1,7 @@
+channels:
+  - conda-forge
+dependencies:
+  - pyarrow
+  - pandas
+  - pip
+  - java-jdk=8

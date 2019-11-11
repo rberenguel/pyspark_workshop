@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -o pipefail
+set -e
+set -x
+
+# Install the latest 2.4 branch available of Spark
+git clone https://github.com/apache/spark.git
+cd spark
+git checkout branch-2.4
+./build/mvn -DskipTests -Phive package
