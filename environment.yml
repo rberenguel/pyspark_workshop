@@ -1,7 +1,8 @@
 channels:
+  - bioconda
   - conda-forge
 dependencies:
   - pyarrow
   - pandas
   - pip
-  - pyspark==2.4.4
+  - java-jdk=8
