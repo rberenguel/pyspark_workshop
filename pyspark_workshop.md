@@ -11,6 +11,19 @@ works. Then, workshop time
 
 ---
 
+
+![right fit](Images/QR.png)
+
+If you haven't done it yet, get the details and requirements while I explain things
+
+`github.com/rberenguel/`
+
+The repository is 
+
+`pyspark_workshop`
+
+
+
 ^ Test footnote, hello there
 
 ---
