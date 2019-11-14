@@ -479,4 +479,6 @@ The repository is
 
 ---
 
+[.hide-footer]
+
 # `EOF`
