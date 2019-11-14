@@ -19,17 +19,11 @@ in the PDF.
 
 ---
 
-You can find an exported version using [reveal.js](http://revealjs.com) of the
-slides
-[here](https://rberenguel.github.io/pyspark_workshop/pyspark_workshop.html#/). It is
-not 100% faithful to the PDF/Deckset version but is close enough (and animated
-gifs play). The export was generated with
-[this](https://github.com/rberenguel/awkrdeck) and tweaked to add a footer.
+You can run the notebook in Binder
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rberenguel/pyspark_workshop/master?filepath=pyspark_workshop.ipynb)
 
 ---
-
-Run the notebook in Binder:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rberenguel/pyspark_workshop/master?filepath=pyspark_workshop.ipynb)
 
 ## Thanks
 
@@ -61,7 +55,7 @@ need
 
 ---
 
-The TL;DR if you don't want to use Docker is, probably:
+The TL;DR if you don't want to use Docker should just be:
 
 ```
 pip install pyarrow pandas pyspark numpy jupyter
