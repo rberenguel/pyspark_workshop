@@ -23,6 +23,9 @@ You can run the notebook in Binder
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rberenguel/pyspark_workshop/master?filepath=pyspark_workshop.ipynb)
 
+Or just read it here in Github by clicking
+[here](https://github.com/rberenguel/pyspark_workshop/blob/master/pyspark_workshop.ipynb)
+
 ---
 
 ## Thanks
