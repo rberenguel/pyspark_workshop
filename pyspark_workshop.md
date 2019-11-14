@@ -403,7 +403,7 @@ another presentation…) Catalyst prunes trees
 
 ---
 
-# Workshop time!
+# **Workshop** time!
 
 ---
 
