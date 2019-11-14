@@ -1,7 +1,30 @@
 # Workshop for PyDay BCN 2019
 
 These are the slides and notebook for a workshop _The magic of PySpark_ for
-[PyDay Barcelona 2019](https://pybcn.org/pyday-bcn-2019/). Still WIP
+[PyDay Barcelona 2019](https://pybcn.org/pyday-bcn-2019/). 
+
+You can find the slides
+[here](https://github.com/rberenguel/pyspark_workshop/raw/master/pyspark_workshop.pdf)
+(some images might look slightly blurry). I recommend you check the version with
+[presenter
+notes](https://github.com/rberenguel/pyspark_workshop/raw/master/pyspark_workshop-with-notes.pdf).
+
+---
+
+This presentation is formatted in Markdown and prepared to be used with
+[Deckset](https://www.decksetapp.com/). The drawings were done on an iPad Pro
+using [Procreate](https://procreate.art). **Here only the final PDF and the
+source Markdown are available**. Sadly the animated gifs are just static images
+in the PDF.
+
+---
+
+You can find an exported version using [reveal.js](http://revealjs.com) of the
+slides
+[here](https://rberenguel.github.io/pyspark_workshop/pyspark_workshop.html#/). It is
+not 100% faithful to the PDF/Deckset version but is close enough (and animated
+gifs play). The export was generated with
+[this](https://github.com/rberenguel/awkrdeck) and tweaked to add a footer.
 
 ---
 

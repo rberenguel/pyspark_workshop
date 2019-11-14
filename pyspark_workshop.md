@@ -1,4 +1,10 @@
-# Introduction to **Py**Spark
+footer: ![left](images/affectv.png)
+
+![fit](Images/pybcn.png)
+
+# The Magic of **Py**Spark
+
+### _An introduction to PySpark_
 
 ^ I will explain a bit what is `Spark` and how it works and then how `PySpark`
 works. Then, workshop time
@@ -57,7 +63,7 @@ works. Then, workshop time
 
 ---
 
-
+[.hide-footer]
 
 ![left](Images/driver.gif)
 
@@ -194,6 +200,40 @@ partition) has a specific way to be computed. If for some reason one is lost
 allow recomputing. It is as well optional (Spark will default to something
 sensible then)
 
+--- 
+
+### Two kind of operations:
+
+## __Transformations__
+## &
+## __Actions__
+
+---
+
+
+__Transformations__: Reshape the data. They are part of __stages__
+
+* Filter
+* Map
+* Join
+
+^ The split between stage and stage happens when we _shuffle_ data. Shuffling is the move of data from executor to executor, required by many operations. If we could avoid shuffling, distributed computing would be easier
+
+---
+
+
+__Actions__: Return a result. They define __jobs__
+
+* Count
+* Show
+* Write
+
+^ Actions create a barrier between stages
+
+---
+
+![fit](images/StagesAndJobs.png)
+
 ---
 
 # Py__Spark__
@@ -252,7 +292,7 @@ have column names, and may have types for each column
 
 ---
 
-
+[.hide-footer]
 
 ![left](Images/Hannibal.jpg)
 
@@ -287,11 +327,13 @@ another presentation…) Catalyst prunes trees
 
 ### You should also enable *Arrow optimisations* to speed up the data transfer from the JVM to Python
 
-#### **We'll see why and how later**
+#### **We'll see why and how later during the workshop**
 
 ---
 
-### New project: **Koalas**
+### New project: **Koalas**[^1]
+
+[^1]: https://github.com/databricks/koalas
 
 #### Offers a unified API between Pandas and Spark Dataframes (as much as possible)
 
@@ -299,9 +341,11 @@ another presentation…) Catalyst prunes trees
 
 ---
 
-### Pure Python alternative: **Dask**
+### Pure Python alternative: **Dask**[^1]
 
 #### Another distributed framework
+
+[^1]: https://github.com/dask/dask
 
 ^ The project is [here](https://github.com/dask/dask)
 
@@ -313,6 +357,8 @@ another presentation…) Catalyst prunes trees
 
 # Yes *if*
 
+[.build-lists: true]
+
 - The data is **very** large (significantly larger than memory)
 - Your org already has Spark cluster or codebase
 - There is no better alternative
@@ -320,6 +366,8 @@ another presentation…) Catalyst prunes trees
 ---
 
 # No *if*
+
+[.build-lists: true]
 
 - You want to add **Spark** to your CV
 - Java stacktraces scare you
@@ -336,25 +384,25 @@ another presentation…) Catalyst prunes trees
 
 ---
 
-# Questions?
-
----
-
 ![](Images/Gene.jpg)
 
 # __Thanks!__
 
 ---
 
+# Workshop time!
+
+---
+
 ![right fit](Images/QR.png)
 
-Get the slides from my github:
+Get the slides and notebook we will use from my github:
 
 `github.com/rberenguel/`
 
 The repository is 
 
-`pyspark-workshop`
+`pyspark_workshop`
 
 ---
 
