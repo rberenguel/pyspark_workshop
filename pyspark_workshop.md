@@ -12,7 +12,7 @@ works. Then, workshop time
 ---
 
 
-![right fit](Images/QR.png)
+![right](Images/QR.png)
 
 If you haven't done it yet, get the details and requirements while I explain things
 
@@ -383,7 +383,7 @@ another presentation…) Catalyst prunes trees
 [.build-lists: true]
 
 - You want to add **Spark** to your CV
-- Java stacktraces scare you
+- JVM stacktraces scare you
 
 ---
 
