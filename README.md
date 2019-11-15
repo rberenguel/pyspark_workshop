@@ -23,8 +23,15 @@ You can run the notebook in Binder
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rberenguel/pyspark_workshop/master?filepath=pyspark_workshop.ipynb)
 
+_Note_: The Arrow optimisation does not work in Binder. I'll try to fix it, but
+it won't be ready for the workshop. Check the output notebook to see the impact
+of these.
+
 Or just read it here in Github by clicking
 [here](https://github.com/rberenguel/pyspark_workshop/blob/master/pyspark_workshop.ipynb)
+(no outputs) or
+[here](https://github.com/rberenguel/pyspark_workshop/blob/master/pyspark_workshop_outputs.ipynb)
+(with outputs)
 
 ---
 
