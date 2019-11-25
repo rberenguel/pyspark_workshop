@@ -7,7 +7,7 @@ You can find the slides
 [here](https://github.com/rberenguel/pyspark_workshop/raw/master/pyspark_workshop.pdf)
 (some images might look slightly blurry). I recommend you check the version with
 [presenter
-notes](https://github.com/rberenguel/pyspark_workshop/raw/master/pyspark_workshop-with-notes.pdf).
+notes](https://github.com/rberenguel/pyspark_workshop/raw/master/pyspark_workshop_with_notes.pdf).
 
 ---
 
