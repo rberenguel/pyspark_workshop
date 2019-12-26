@@ -115,3 +115,5 @@ for some additional optimisations in Spark.
 ----
 
 ![](https://github.com/rberenguel/pyspark_workshop/blob/master/Images/presentingWorkshop.jpg)
+
+![](https://github.com/rberenguel/pyspark_workshop/blob/master/Images/presentingBadge.jpg)
