@@ -111,3 +111,7 @@ and open the URL provided in the logs (should look like
 
 This container installs Arrow on top of the usual `jupyter/pyspark`, to allow
 for some additional optimisations in Spark.
+
+----
+
+![](https://github.com/rberenguel/pyspark_workshop/blob/master/presentingWorkshop.jpg)
